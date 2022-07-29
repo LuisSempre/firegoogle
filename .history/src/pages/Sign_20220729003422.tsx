@@ -37,14 +37,14 @@ export function Sign() {
             <span> Utilizando autenticacao social </span>{" "}
             <button
               onClick={handleSign}
-              className="w-full px-4 py-2 font-bold text-black rounded-full bg-gradient-to-br from-green-500 via-purple-500 to-blue-400"
+              className="w-full px-4 py-2 font-bold text-black bg-white rounded-full"
             >
               {" "}
               Entrar com Google{" "}
             </button>{" "}
           </div>
         </div>
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-green-500 via-purple-500 to-blue-400"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-pink-500 via-purple-500 to-yellow-400"></div>
       </div>
     </div>
   );
